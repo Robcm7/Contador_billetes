@@ -1,0 +1,16 @@
+CONTADOR DE QUETZALES - PROYECTO PARA GENERAR EL APK
+
+1. Crea una cuenta gratis en github.com y un repositorio NUEVO en modo PRIVADO.
+2. En el repositorio: "Add file" > "Upload files" y sube TODO el contenido de esta carpeta
+   (www, icons, package.json, capacitor.config.json, workflow, LEEME.txt).
+3. "Add file" > "Create new file". En el nombre escribe exactamente:
+      .github/workflows/build.yml
+   y pega dentro el contenido del archivo workflow/build.yml. Pulsa "Commit changes".
+   (Si usas git en computadora, la carpeta .github ya viene incluida.)
+4. Entra a la pestana "Actions". Espera unos 5-8 minutos a que termine (palomita verde).
+   Si no arranca sola: Actions > "Compilar APK" > "Run workflow".
+5. Abre la ejecucion terminada, baja a "Artifacts" y descarga "contador-quetzales-apk".
+   Dentro del zip esta app-debug.apk.
+6. Pasa el APK al telefono, abrelo y permite "Instalar apps de origen desconocido".
+
+Para cambiar algo en la app: edita www/index.html en GitHub y se genera un APK nuevo.
